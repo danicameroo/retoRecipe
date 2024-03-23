@@ -1,0 +1,137 @@
+@import url('https://fonts.google.com/specimen/Young+Serif');
+@import url('https://fonts.google.com/specimen/Outfit');
+
+
+@media (max-width: 699px){
+    .landingBody{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;    
+        padding: 10%;
+    }
+    .container{
+        width: 100%;
+        padding: 0px;
+        border-radius: 0;
+    }
+    .contImg{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50%;
+    }
+    .imgLan{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        border-radius: 0;
+        position: absolute;
+        top: 0;
+    }
+    .title{
+        font-family: Outfit;
+        font-weight: 700;
+        color: #2B2928;
+    }
+    .text{
+        font-weight: 400;
+        font-size: 16px;
+        color: #63615E;
+        font-family: Young Serif;
+    }
+    .contPrep{
+        background-color: hsl(330, 100%, 98%);
+        padding: 5% 10%;
+        border-radius: 10px;
+        margin: 10% 2%;
+    }
+    .titlePrep{
+        font-weight: 700;
+        color: #6E2D4B;
+        font-family: Young Serif;
+        margin: 0;
+    }
+    .lista{
+        padding: 0% 10%;
+    }
+    .listaText{
+        color: #6E2D4B;
+        font-size: 12px;
+        font-family: Young Serif;
+        padding: 1% 0%;
+    }
+    .listaTextNe{
+        font-size: 16px;
+        font-weight: 700;
+        color: #2B2928;
+        font-family: Young Serif;
+    }
+    .listaTextDesc{
+        font-size: 16px;
+        font-weight: 400;
+        font-family: Young Serif;
+        color: #63615E;
+    }
+    .titleDos{
+        font-weight: 700;
+        color: #804930;
+        font-family: Young Serif;
+        margin: 0;
+    }
+    .listaTextDos{
+        color: #804930;
+        font-size: 12px;
+        font-family: Young Serif;
+        padding: 1% 0%;
+    }
+    .line{
+        content: '';
+        height: 2px;
+        width: 100%;
+        background-color: #E7E7E7;
+        margin: 5% 0;
+    }
+    .listaTextTres{
+        list-style-type: decimal;
+        color: #804930;
+        font-size: 16px;
+        font-weight: 700;
+        font-family: Young Serif;
+        padding: 1% 2%;
+    }
+    .table{
+        display: flex;
+        flex-direction: column;
+    }
+    .colTable{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .contTable{
+        width: 50%;
+        text-align: start;
+        padding-left: 5%;
+    }
+    .tableTitle{
+        font-weight: 400;
+        font-size: 16px;
+        color: #63615E;
+        font-family: Young Serif;
+    }
+    .tableText{
+        font-weight: 700;
+        font-size: 16px;
+        color: #804930;
+        font-family: Young Serif;
+    }
+    .lineDos{
+        content: '';
+        height: 1px;
+        width: 100%;
+        background-color: #E7E7E7;
+        margin: 0;
+    }
+}
